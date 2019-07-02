@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+
+/*Properties*/
+
+/*Image Border*/
+div.MissionBorderImage {
+	border: solid;
+	width: 100;
+	height: 100;
+
+}
+
+img.imageborder {
+	width: 600;
+	height: 600;
+	z-index: -1;
+	position: absolute;
+}
+
+/* SLIDESHOW */
+.slideshow {
+  list-style-type: none;
+}
+
+.slideshow,
+.slideshow:after { 
+    top: -16px;
+		position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 0; 
+}
+
+.slideshow li span { 
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 30s linear infinite 0s; 
+}
+
+
+/*Change the Unordered List*/
+.slideshow li:nth-child(1) span { 
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/Lourdes_College_Chapel_and_Auditorium_-_panoramio.jpg"); 
+}
+.slideshow li:nth-child(2) span { 
+    background-image: url("https://i.ytimg.com/vi/0Tl7n46euTo/maxresdefault.jpg");
+    animation-delay: 6s; 
+}
+.slideshow li:nth-child(3) span { 
+    background-image: url("https://mindanaogoldstardaily.com/wp-content/uploads/2018/12/Lourdes-College.jpg");
+    animation-delay: 12s; 
+}
+.slideshow li:nth-child(4) span { 
+    background-image: url("http://lccdo.com/new2/wp-content/uploads/2019/03/library.png");   
+    animation-delay: 18s; 
+}
+.slideshow li:nth-child(5) span { 
+    background-image: url("http://lccdo.com/new2/wp-content/uploads/2019/03/pers.png");
+    animation-delay: 24s; 
+}
+
+/*Background Image for Mission and Vission */
+div.BackgroundImage {
+	background-image: url("https://i.ytimg.com/vi/XRe1ySlyURI/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: solid;
+	width:500;
+	height: 500;
+	position: absolute;
+	z-index: -1;
+}
+
+	
+/*Logo*/
+div.Logo {
+  position: absolute;
+  z-index: 1;
+  padding-top: 10;
+  padding-left: 10;
+  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/*Image Logo*/
+img.logo {
+	border-radius: 25px;
+}
+
+/*Body*/
+body {
+	background-color: pink;
+}
+
+/*Border Header*/
+div.border {
+  border-radius: 25px;
+  background: rgb(255,0,202);
+  background: linear-gradient(90deg, rgba(255,0,202,1) 0%, rgba(168,49,117,1) 6%, rgba(255,0,189,1) 37%, rgba(148,50,133,1) 85%, rgba(246,110,255,1) 100%);
+  height: 100;
+  
+}
+
+/*About Border*/
+div.AboutBorder1 {
+  border-radius: 25px;
+  background-color: #ff3399;
+  border-color: #ff3399;
+  margin-top: 370;
+  width: 1000;
+  padding-right: 60;
+  padding-left: 10;
+  padding-bottom: 10;
+  margin-left: 280;
+}
+
+/*Button Margin*/
+div.button {
+	padding-top: 10;
+    padding-left: 325;
+	align: left;
+}
+
+/*About Button*/
+button.button1 {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 85px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 25px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+  }
+
+/*Mission or Vision Button*/
+button.button2 {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 85px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 25px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+/*About Button Hover*/  
+button.button1:hover {
+	background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/*Mission and Vision Button Hover*/  
+button.button2:hover {
+	background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/*About Border Focus*/
+button.button1:focus {
+	outline: none;
+}
+
+/*About Border Animation*/
+div.AboutBorderAnimation {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
+
+/*About Border Animation*/
+div.borderAnimation {
+	-webkit-animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-hor-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*Animations*/
+
+/*Slide Show Animation */
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+.no-cssanimations .cb-slideshow li span {
+	opacity: 1;
+}
+
+/*Fade in Animation */
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+/*Jello Animation */
+
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+
+/*Scaler Animation*/
+
+@-webkit-keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-hor-center {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
+}
