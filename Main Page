@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Lourdes College</title>
+		<link rel="stylesheet" type="text/css" href="UniversalDesign.css">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+	<div class="BodyBorder">
+			<ul class="slideshow">
+				<li><span></span></li>
+			    <li><span>2</span></li>
+				<li><span></span></li>
+				<li><span></span></li>
+				<li><span></span></li>
+		</div>
+	</div>
+	<div class="Logo">
+		<img class="logo" src="Capture.png">
+	</div>
+	<div class="borderAnimation">
+		<div class="border">
+			<div class="button">
+				<button class="button1">About</button>
+				<button class="button2">Mission & Vision</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="AboutBorderAnimation">
+		<div class="AboutBorder1">
+			
+			<center><h1><b>Educating and Forming the Lourdesian Way</b></h1></center>
+
+			<center>Our holistic approach starts in the earliest preschool education where faith and academic endeavors are given equal weights in the development and formation of the person. In the classroom, ethical and moral considerations always complement intellectual discourse. We firmly believe in the essence of inculcating a strong spiritual foundation in every learner while sharpening his/her life’s skills. We prepare you for life and expose you to unique challenges that enrich your mind, heart and spirit. We invite you to discover how we challenge you to learn and grow with us; join the hundreds of our proud graduates equipped to make their own distinction as Lourdesians.</center>
+		</div>
+	</div>
+	</body>
+</html>
